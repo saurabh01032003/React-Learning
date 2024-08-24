@@ -2,6 +2,7 @@ import React from 'react'
 import Person from './components/Person'
 import Counter from './components/Counter'
 import Random from './components/Random'
+import Sam from './components/Sam'
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
 
     <>
         {/* <Counter/> */}
-        <Random/>
+        {/* <Random/> */}
+        <Sam/>
     </>
   )
 }
