@@ -3,6 +3,8 @@ import Person from './components/Person'
 import Counter from './components/Counter'
 import Random from './components/Random'
 import Sam from './components/Sam'
+import Memoo from './components/Memoo'
+import Interview from './components/Interview'
 
 function App() {
   return (
@@ -16,7 +18,10 @@ function App() {
     <>
         {/* <Counter/> */}
         {/* <Random/> */}
-        <Sam/>
+        {/* <Sam/> */}
+        {/* <Memoo/> */}
+
+        <Interview/>
     </>
   )
 }
