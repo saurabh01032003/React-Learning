@@ -19,7 +19,7 @@ function GithubUsers({username}) {
                 return {
                     imgUrl : avatar_url,
                     followers: followers,
-                    following
+                    following // key-value same hai toh ek baar hi likho -> followers ke case me bhi ek baar likhne se kaam ho jayega
                 }
             })
         } 

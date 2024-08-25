@@ -1,12 +1,15 @@
 import React from 'react'
 import GithubUsers from './components/GithubUsers'
+import Memoo from './components/Memoo'
 
 function App() {
   return (
     <div>
-      <GithubUsers username="samarth0606" />
+      {/* <GithubUsers username="samarth0606" />
       <GithubUsers username="hrs148"/>
-      <GithubUsers username="saurabh01032003"/>
+      <GithubUsers username="saurabh01032003"/> */}
+
+      <Memoo/>
     </div>
   )
 }
