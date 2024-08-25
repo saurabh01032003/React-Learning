@@ -72,3 +72,7 @@ function Todo({array}){ // array ko argument me catch karne ke liye as an object
 }
 
 export default App
+
+
+
+// https://api.github.com/users/saurabh01032003 (api to fetch user info from github)
