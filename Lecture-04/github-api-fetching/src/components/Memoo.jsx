@@ -5,9 +5,11 @@ import { useState } from 'react'
 function Memoo() {
     let [count,setCount] = useState(0)
     let [inp,setInput] = useState(0);
+    
     function handleInput(e){
         setInput(e.target.value) // inp variable me jo value tumne input kara hai wo aa jayega
     }
+    
     // function handleClick(){
     //     setCount(count+1);
     // }
