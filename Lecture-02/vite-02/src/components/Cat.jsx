@@ -1,22 +1,24 @@
 import React from 'react'
 
 function Cat() {
-  // Statements
+  // Statements : Contains if,else, switch, for...etc
   let a = 10;
   let b = "Saurabh";
+
   let c = true;
   let d = false;
   let e = "undefined"; // must pass in string -> as undefined datatype can't be calculated
   let f = null;
-
+  
   let obj = {a: 10, b: "Sam"};
-
+  
   let arr = [10,20,30,40];
   // Expressions : Single Value as output
   return (
     <div>
       <h1>a : {a} </h1>
       <h1>b : {b} </h1>
+      {/* Boolean values are statements : inko dekhne ke liye string me convert kardo */}
       <h1>c : {JSON.stringify(c)} </h1>
       <h1>d : {JSON.stringify(d)} </h1>
       <h1>e : {JSON.stringify(e)} </h1>
@@ -24,6 +26,8 @@ function Cat() {
       {/* Undefined value can't be calculate in either way */}
 
       <h1>f : {JSON.stringify(f)} </h1>
+
+      {/* Hum objects ko directly show nahi kar sakte using {o} ❌ */}
 
       <h1>obj : {obj.a} </h1>
       <h1>obj : {obj.b} </h1>

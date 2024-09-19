@@ -1,5 +1,5 @@
 
-// Q. You have to change name(in argument) on clicking button logout
+// // Q. You have to change name(in argument) on clicking button logout
 // import React from 'react'
 
 // function Person({name}) {
@@ -23,6 +23,7 @@
 
 // // Problem in above : name will not change on main page(don't see console : ushme to whi print hoga jo tum karwa rahe)
 
+// Props cna't be changed (immutable) -> iske liye hum hooks ka istemal karte hai i.e useState()
 
 // ----------------------Correct Way
 // useState : it is a hook (function) -> isko run karenge argument me initial value denge jo hame change karna hai

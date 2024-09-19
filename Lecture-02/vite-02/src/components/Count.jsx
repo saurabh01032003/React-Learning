@@ -16,7 +16,7 @@ function Count() {
     }
   return (
     <div>
-        <h1>Count : {temp} </h1>
+        <h1>Counter : {temp} </h1>
         <button onClick={decrement}>-</button>
         &nbsp; 
         Count
