@@ -5,6 +5,7 @@ import Random from './components/Random'
 import Sam from './components/Sam'
 import Memoo from './components/Memoo'
 import Interview from './components/Interview'
+import { Fragment } from 'react'
 
 function App() {
   return (
@@ -15,14 +16,16 @@ function App() {
     //     <Person/>
     // </>
 
-    <>
+    // To avoid nesting of extra <div> use either only opening or closing brackets or use <Fragment> tag instead of <div>
+
+    <Fragment>
         {/* <Counter/> */}
         {/* <Random/> */}
-        {/* <Sam/> */}
+        <Sam/>
         {/* <Memoo/> */}
 
-        <Interview/>
-    </>
+        {/* <Interview/> */}
+    </Fragment>
   )
 }
 

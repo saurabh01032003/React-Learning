@@ -10,7 +10,7 @@ function Counter(){
 
     return (
         <div>
-            <h1>{counter}</h1>
+            <h1>Counter : {counter}</h1>
             <button onClick={handleIncrement}>+</button>
         </div>
     )
