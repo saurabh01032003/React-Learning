@@ -62,6 +62,7 @@ function Todo({array}){ // array ko argument me catch karne ke liye as an object
   return (
     array.map((item,index)=>{
       return (
+        // Every child ko unique "key" prop do -> Requirement (we generally don't give index as key bcos of repitition but yaha kr liya hai)
         <div key={index} style={{border:"2px solid black", margin:"5px"}}>
           <h3>Title : {item.title} </h3>
           <p>Description : {item.desc} </p>
