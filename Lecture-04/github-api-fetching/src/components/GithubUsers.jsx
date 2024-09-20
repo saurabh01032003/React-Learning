@@ -9,7 +9,7 @@ function GithubUsers({username}) {
         following: 0
     })
 
-    // useEffect : We use thi to perform side effects(i.e fetch, setTimeout,setInterval etc) -> Accepts two argument => 1.) Callback Function  2.) Dependency array
+    // useEffect : We use it to perform side effects(i.e fetch, setTimeout,setInterval etc) -> Accepts two argument => 1.) Callback Function  2.) Dependency array
     useEffect(()=>{ // Hum ish wale call back function ko kabhi -> async function nahi banate hai
         async function callApi(username){ // upar wale function ko async nahi bana sakte isliye isko banana pada
             let resp =  await fetch(`https://api.github.com/users/${username}`);
