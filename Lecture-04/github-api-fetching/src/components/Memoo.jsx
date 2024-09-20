@@ -10,10 +10,8 @@ function Memoo() {
         setInput(e.target.value) // inp variable me jo value tumne input kara hai wo aa jayega
     }
     
-    // Button ke click hone pr bhi handleCount chal raha tha -> because whenever there is change in state the whole componenet rerenders
-    // function handleClick(){
-    //     setCount(count+1);
-    // }
+    // // Button ke click hone pr bhi handleCount chal raha tha -> because whenever there is change in state the whole componenet rerenders
+    
     // let sum = 0;
     // for(let i = 1;i <= inp;i++){ // inp tak ka sum : loop laga kar calculate kara hai
     //     sum += i;
